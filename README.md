@@ -1,5 +1,5 @@
 # Networker
-A complete replacement for RemoteEvents
+A complete replacement for RemoteEvents allowing you to modify tables and call functions on a different run context effortlessly
 
 ## Examples
 
