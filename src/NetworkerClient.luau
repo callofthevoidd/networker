@@ -26,8 +26,8 @@ export type NetworkerClient = typeof(setmetatable(
 ))
 
 --[=[
-	Constructs a new NetworkerClient  
-	@param networkTag NetworkTag -- The unqiue tag of the networker  
+	Constructs a new NetworkerClient
+	@param networkTag NetworkTag -- The unique tag of the networker
 	@param module {} -- The class or service the networker will be communicating with  
 	@return NetworkerClient  
 ]=]

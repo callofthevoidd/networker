@@ -1,1 +1,11 @@
 gitSourceBranch = "main"
+
+[[navbar.items]]
+href = "https://discord.com/invite/r3rVDatP7x"
+label = "Discord"
+position = "right"
+
+[[navbar.items]]
+href = "https://wally.run/package/leifstout/networker"
+label = "Wally"
+position = "right"
