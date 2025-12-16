@@ -11,6 +11,7 @@ type RemotesContainer = NetworkerUtils.RemotesContainer
 --[=[
 	NetworkerClient facilitates the communication of client-sided networking and handles server networking instructions  
 	@class NetworkerClient  
+	@client
 ]=]
 local NetworkerClient = {}
 NetworkerClient.__index = NetworkerClient
@@ -134,5 +135,7 @@ function NetworkerClient.destroy(self: NetworkerClient): ()
 		self.instanceConn:Disconnect()
 	end
 end
+
+NetworkerClient.Destroy = NetworkerClient.destroy
 
 return NetworkerClient
